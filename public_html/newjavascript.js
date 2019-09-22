@@ -24,18 +24,18 @@ function win(userChoice, computerChoice) {
     userScore++;
     userScore_span.innerHTML = userScore;
     computerScore_span.innerHTML = computerScore;
-    result_p.innerHTML = convertToText(userChoice) + " beats " + convertToText(computerChoice) + "! you won!";
+    result_p.innerHTML = convertToText(userChoice) + " beats " + convertToText(computerChoice) + "! You won!";
 }
 function lose(userChoice, computerChoice) {
     computerScore++;
     userScore_span.innerHTML = userScore;
     computerScore_span.innerHTML = computerScore;
-    result_p.innerHTML = convertToText(userChoice) + " beats " + convertToText(computerChoice) + "! you lost!";
+    result_p.innerHTML = convertToText(computerChoice) + " beats " + convertToText(userChoice) + "! You lost!";
 }
 function draw(userChoice, computerChoice) {
     userScore_span.innerHTML = userScore;
     computerScore_span.innerHTML = computerScore;
-    result_p.innerHTML = convertToText(userChoice) + " is the same " + convertToText(computerChoice) + "! it's a draw!";
+    result_p.innerHTML = convertToText(userChoice) + " is the same as " + convertToText(computerChoice) + "! It's a draw!";
 }
 
 function game(userChoice){
