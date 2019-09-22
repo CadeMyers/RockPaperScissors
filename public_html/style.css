@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+}
+
+header {
+    background: white;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: serif, sans-serif;
+}
+
+.scoreboard {
+    border: 3px white;
+    width: 200px;
+    margin: 20px auto;
+    color: white;
+    font-size: 50px;
+    padding: 15px 45px;
+    font-family: sans-serif;
+    position: relative;
+}
+
+.badge{
+    background: #E25700;
+    color: white;
+    font-size: 15px;
+    padding: 3px 50px;
+    font-family: sans-serif;
+}
+
+#user-title {
+    position: absolute;
+    top: 30px;
+    left: -125px;
+}
+
+#computer-title {
+    position: absolute;
+    top: 30px;
+    left: 150px;
+}
+
+.result {
+    font-size: 40px;
+    color: white;
+}
+
+.result > p {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.choices {
+    margin: 50px;
+    text-align: center;
+}
+
+.choice {
+    border: 5px white;
+    display: inline-block;
+    margin: 0 50px;
+}
+
+.choice:hover {
+    cursor: pointer;
+    background-color: red;
+}
+
+#decision {
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 60px;
+}
+
+#instructions {
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 60px;
+}
